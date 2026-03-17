@@ -1,0 +1,5 @@
+This is an example file 
+we are learning     about steams in nodejs
+steams allow us to read and write data efficently
+lets process this file in chuknks of 16bytes
+ leela venkat 
