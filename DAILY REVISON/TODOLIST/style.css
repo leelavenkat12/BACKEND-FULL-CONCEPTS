@@ -1,0 +1,35 @@
+.Heading{
+    
+    display: flex;
+    margin-left: 43%;
+    color:blue;
+    font-family:Arial, Helvetica, sans-serif;
+text-shadow: 1px 1px 5px rgb(221, 139, 139);
+}
+.Delete1{
+margin-left: 15px;
+
+cursor: pointer;
+}
+
+
+/* on hover → show ❌ */
+.Delete1:hover{
+    background-color: red;
+}
+.Delete2{
+margin-left: 15px;
+
+}
+.Delete3{
+margin-left: 15px;
+}
+.Edit1{
+    margin-left: 20px;
+}
+.Edit2{
+    margin-left: 20px;
+}
+.Edit3{
+    margin-left: 20px;
+}

@@ -1,0 +1,72 @@
+express js is framewrok of nodejs  used for flexible http module to use 
+it simplify routing middleware and handle http reqs
+ as i have coppied my html code in url shortener what i have done i copied and pasted and i got it in app.get('/',(req,res)=>{
+    console.log("daata what u want")
+ })
+
+enviornmet variables used to store configuration values of private and secure to be 
+
+process is a global object in nodejs
+$env:PORT=3000; node --watch .\app.js
+
+
+//40
+
+
+validating enviornmet variables
+if private code wrong then we have a manully validation like zod libraires
+zod is js declaration and validation libraray that allows u to define and validate the structure easily
+
+
+
+Static are which that dont change 
+express has middleware named express.Static("public")
+
+
+
+route parameters in express js are dynamic parts of url that can be accesed by req.params
+
+
+we have two route parameters route and query in route parameters we req.params in which we will get the username what we want not 
+only username any thing after /:username
+and query parmaters are used to serach after url or anything we wants like what we search likeproduct/search = iphone then
+after the rul route u gets then add?=product name as search bar will gets
+
+
+as if u want to print multiple querys at a time as page 2 has 10 mobiles to display only then we have to write after router ? as we know and in middle &
+
+#47
+we can get the form submiited data in url 
+as form tag with action attribute to sepcify the url to say whcih type of form 
+and usually to get the data we use  get in express but url should be in limit shorter legnth so for that we use post method 
+but to acces the data in post method we use urlencoded method in req.body of app.post
+
+as we done by  post and get method in post or middleware we have urlencoded method in that options
+we have extended true we have done then the object as r submiting we are getting this as abject as nestend lopp
+just in indexhtml we have to write name attritbte in form input oone user[name] and for message same user[message] 
+ 
+
+ #48 
+ handling error pages if we do wrong routes press
+ we have a middleware fun in that we wont pass any routes as app.use((req,res)=>{
+   
+ })
+
+
+
+ #50 
+ IS IT TO ROUTING WHICH IS USED TO HANDLE ROUTING NAD RESUABLE CODE IN ANY APPLICATION
+ ROUTER HAS INBUILT FUNTION IN EXPRESS JS EXPRESS.ROUTER()
+ ROUTER.GET() ADN ROUTER.POST()
+
+
+ as the routing fuction part in router file and if u want to run in main file where server is running then 
+ there we use app.use(rotuer as obj what u created  )
+
+
+ #51
+ Template ENGINES
+ IT USED TO RENDER DYNAMIX HTML FILES BY INJECTEING DATA TO TEMPLATES
+ POPULAR ENGINES LIKE EJS PUG
+ 
+ SYTANX IS <%=%>

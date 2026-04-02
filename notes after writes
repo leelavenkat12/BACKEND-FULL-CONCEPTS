@@ -1,0 +1,13 @@
+if we have client and searching for a webiste then we are first dns lookup first the tranlastes human 
+readable name of damin to machine domain
+as it checks the ip address it presents it will get the get request of server 
+
+
+http and https 
+http - hyper text tranfer protocol
+
+it helps how to req and res through server
+
+
+https is a secure version of http bcoz as if we use http only in middle hacker
+comes then the data can be liked so for this https we use if he hacks to the dta will be encrypted format

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<!-- we are just created header.ejs file and we displaying th conet by include tag of ejs -->
+    <%- include('header.ejs')%> 
+    <h1 class="Headers">Student Report Card</h1>
+<ul>
+    <% student.map((i)=>{%>
+        
+    <li class="std">
+       
+        <p>Name: <%= i.name %></p>
+         <p>Grade:<%= i.Grade %></p>
+          <p>FavoruiteSub:<%= i.FavouriteSub %></p>
+        
+    </li>
+    </div>
+<%})%>
+</ul>
+</body>
+</html>
